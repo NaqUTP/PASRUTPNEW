@@ -59,9 +59,6 @@ session_start();
             <i class="bx bx-heart"></i>
             <span class="d-flex">0</span>
           </div>
-          <a href="cart.html" class="icon">
-            <i class="bx bx-cart"></i>
-            <span class="d-flex">0</span>
           </a>
         </li>
       </ul>
@@ -77,9 +74,6 @@ session_start();
           <i class="bx bx-heart"></i>
           <span class="d-flex">0</span>
         </div>
-        <a href="cart.html" class="icon">
-          <i class="bx bx-cart"></i>
-          <span class="d-flex">0</span>
         </a>
       </div>
 
@@ -119,9 +113,7 @@ session_start();
           <h4>RM6.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="fruitsmoothies.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -137,9 +129,7 @@ session_start();
           <h4>RM8.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="tauhu-bergedil-ayam.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -154,9 +144,7 @@ session_start();
           <h4>RM5.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="shawarma-zinger.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -171,9 +159,7 @@ session_start();
           <h4>RM26.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="kek-tapak-kuda.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -188,9 +174,7 @@ session_start();
           <h4>From RM7.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="meow-meow-ramyeon.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -205,9 +189,7 @@ session_start();
           <h4>RM5.50</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="ramen.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -222,9 +204,7 @@ session_start();
           <h4>RM15.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="crispy-choco-tub.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -239,9 +219,7 @@ session_start();
           <h4>From RM17.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="popia-nestum.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
     </div>
