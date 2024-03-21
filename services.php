@@ -21,6 +21,7 @@
   <title>Pasar UTP</title>
 </head>
 <body>
+<script src="searchscript.js"></script>
   <!-- Top Nav -->
   <div class="navigation">
     <div class="nav-center container d-flex">
@@ -52,17 +53,11 @@
           <a href="login.html" class="icon">
             <i class="bx bx-user"></i>
           </a>
-          <div class="icon">
-            <i class="bx bx-search"></i>
-          </div>
+      
           <div class="icon">
             <i class="bx bx-heart"></i>
             <span class="d-flex">0</span>
           </div>
-          <a href="cart.html" class="icon">
-            <i class="bx bx-cart"></i>
-            <span class="d-flex">0</span>
-          </a>
         </li>
       </ul>
 
@@ -71,17 +66,14 @@
           <i class="bx bx-user"></i>
         </a>
         <div class="icon">
-          <i class="bx bx-search"></i>
-        </div>
-        <div class="icon">
           <i class="bx bx-heart"></i>
           <span class="d-flex">0</span>
         </div>
-        <a href="cart.html" class="icon">
-          <i class="bx bx-cart"></i>
-          <span class="d-flex">0</span>
         </a>
       </div>
+
+       <div class="container">
+        <input id="searchbar" onkeyup="search_animal(event)" type="text" name="search" placeholder="Search Products..">
 
       <div class="hamburger">
         <i class="bx bx-menu-alt-left"></i>
@@ -117,9 +109,7 @@
           <h4>RM3.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="delivery-services.html"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -135,9 +125,7 @@
           <h4>N/A</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="beelisimo-s.html"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -152,9 +140,7 @@
           <h4>From RM120.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="car-rental.html"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
 
