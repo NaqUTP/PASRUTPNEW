@@ -27,29 +27,29 @@ session_start();
   <!-- Top Nav -->
   <div class="navigation">
     <div class="nav-center container d-flex">
-      <a href="index.html" class="logo"><h1>Pasar UTP</h1></a>
+      <a href="index.php" class="logo"><h1>Pasar UTP</h1></a>
 
       <ul class="nav-list d-flex">
         <li class="nav-item">
-          <a href="index.html" class="nav-link">HOME</a>
+          <a href="index.php" class="nav-link">HOME</a>
         </li>
         <li class="nav-item">
-          <a href="preloved.html" class="nav-link">PRELOVED</a>
+          <a href="preloved.php" class="nav-link">PRELOVED</a>
         </li>
         <li class="nav-item">
-          <a href="preorder.html" class="nav-link">PREORDER</a>
+          <a href="preorder.php" class="nav-link">PREORDER</a>
         </li>
         <li class="nav-item">
-          <a href="food.html" class="nav-link">FOOD</a>
+          <a href="food.php" class="nav-link">FOOD</a>
         </li>
         <li class="nav-item">
-          <a href="services.html" class="nav-link">SERVICES</a>
+          <a href="services.php" class="nav-link">SERVICES</a>
         </li>
         <li class="nav-item">
           <a href="books.php" class="nav-link">BOOKS</a>
         </li>
         <li class="icons d-flex">
-          <a href="login.html" class="icon">
+          <a href="login.php" class="icon">
             <i class="bx bx-user"></i>
           </a>
           <div class="icon">
