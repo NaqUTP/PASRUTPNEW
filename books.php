@@ -55,15 +55,9 @@ session_start();
             <i class="bx bx-user"></i>
           </a>
           <div class="icon">
-            <i class="bx bx-search"></i>
-          </div>
-          <div class="icon">
             <i class="bx bx-heart"></i>
             <span class="d-flex">0</span>
           </div>
-          <a href="cart.html" class="icon">
-            <i class="bx bx-cart"></i>
-            <span class="d-flex">0</span>
           </a>
         </li>
       </ul>
@@ -73,16 +67,9 @@ session_start();
           <i class="bx bx-user"></i>
         </a>
         <div class="icon">
-          <i class="bx bx-search"></i>
-        </div>
-        <div class="icon">
           <i class="bx bx-heart"></i>
           <span class="d-flex">0</span>
         </div>
-        <a href="cart.html" class="icon">
-          <i class="bx bx-cart"></i>
-          <span class="d-flex">0</span>
-        </a>
       </div>
 
       <div class="container">
@@ -122,9 +109,7 @@ session_start();
           <h4>RM10.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="asrama-fixi.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -140,9 +125,7 @@ session_start();
           <h4>RM10.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="kiub-fixi.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -157,9 +140,7 @@ session_start();
           <h4>RM10.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="puaka-fixi.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -174,9 +155,7 @@ session_start();
           <h4>RM7.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="chemistry-i-workbook.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -191,9 +170,7 @@ session_start();
           <h4>RM20.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="phy-ii-fbp0025.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -208,9 +185,7 @@ session_start();
           <h4>RM30.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="chem-ii-fbc0025.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -225,9 +200,7 @@ session_start();
           <h4>RM40.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="malaysian-economy-3rd-edition.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -242,9 +215,7 @@ session_start();
           <h4>RM35.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="bm-4th-edition.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
     </div>
