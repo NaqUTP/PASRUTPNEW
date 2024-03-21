@@ -1,5 +1,6 @@
-<?php include('session_check.php'); ?>
-
+<?php
+session_start();
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -22,35 +23,33 @@
   <title>Pasar UTP</title>
 </head>
 <body>
+<script src="searchscript.js"></script>
   <!-- Top Nav -->
   <div class="navigation">
     <div class="nav-center container d-flex">
-      <a href="dummy.php" class="logo"><h1>Pasar UTP</h1></a>
+      <a href="index.html" class="logo"><h1>Pasar UTP</h1></a>
 
       <ul class="nav-list d-flex">
         <li class="nav-item">
-          <a href="dummy.php" class="nav-link">HOME</a>
+          <a href="index.html" class="nav-link">HOME</a>
         </li>
         <li class="nav-item">
-          <a href="preloved.php" class="nav-link">PRELOVED</a>
+          <a href="preloved.html" class="nav-link">PRELOVED</a>
         </li>
         <li class="nav-item">
-          <a href="preorder.php" class="nav-link">PREORDER</a>
+          <a href="preorder.html" class="nav-link">PREORDER</a>
         </li>
         <li class="nav-item">
           <a href="food.html" class="nav-link">FOOD</a>
         </li>
         <li class="nav-item">
-          <a href="services.php" class="nav-link">SERVICES</a>
+          <a href="services.html" class="nav-link">SERVICES</a>
         </li>
         <li class="nav-item">
           <a href="books.php" class="nav-link">BOOKS</a>
         </li>
-        <li class="nav-item">
-          <a href="wtb.html" class="nav-link">WTB!</a>
-        </li>
         <li class="icons d-flex">
-          <a href="profile.php" class="icon">
+          <a href="login.html" class="icon">
             <i class="bx bx-user"></i>
           </a>
           <div class="icon">
@@ -68,7 +67,7 @@
       </ul>
 
       <div class="icons d-flex">
-        <a href="profile.php" class="icon">
+        <a href="login.html" class="icon">
           <i class="bx bx-user"></i>
         </a>
         <div class="icon">
@@ -84,6 +83,9 @@
         </a>
       </div>
 
+      <div class="container">
+        <input id="searchbar" onkeyup="search_animal(event)" type="text" name="search" placeholder="Search Products..">
+
       <div class="hamburger">
         <i class="bx bx-menu-alt-left"></i>
       </div>
@@ -92,7 +94,7 @@
   <!--=============== BREADCRUMB ===============-->
   <section class="breadcrumb">
     <div class="breadcrumb__list flex container">
-      <a href="index.php" class="breadcrumb__link">Home</a>
+      <a href="index.html" class="breadcrumb__link">Home</a>
       <span class="breadcrumb__link"> > </span>
       <span class="breadcrumb__link">Food</span>
   </section>
@@ -107,18 +109,18 @@
     <div class="product-center">
       <div class="product-item">
         <div class="overlay">
-          <a href="fruitsmoothies.html" class="product-thumb">
+          <a href="fruitsmoothies.php" class="product-thumb">
             <img src="fruit-smoothies.jpeg" alt="" />
           </a>
         </div>
         <div class="product-info">
           <span>FOOD</span>
-          <a href="fruitsmoothies.html">Fruit Smoothies</a>
+          <a href="fruitsmoothies.php">Fruit Smoothies</a>
           <h4>RM6.00</h4>
         </div>
         <ul class="icons">
           <li><i class="bx bx-heart"></i></li>
-          <li><a href="fruitsmoothies.html"><i class="bx bx-search"></i></a></li>
+          <li><a href="fruitsmoothies.php"><i class="bx bx-search"></i></a></li>
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
@@ -210,18 +212,18 @@
       </div>
       <div class="product-item">
         <div class="overlay">
-          <a href="crispy-choco-tub.html" class="product-thumb">
+          <a href="crispy-choco-tub.php" class="product-thumb">
             <img src="crispy-choco-tub.jpeg" alt="" />
           </a>
         </div>
         <div class="product-info">
           <span>FOOD</span>
-          <a href="crispy-choco-tub.html">Crispy Choco Tub</a>
+          <a href="crispy-choco-tub.php">Crispy Choco Tub</a>
           <h4>RM15.00</h4>
         </div>
         <ul class="icons">
           <li><i class="bx bx-heart"></i></li>
-          <li><a href="crispy-choco-tub.html"><i class="bx bx-search"></i></a></li>
+          <li><a href="crispy-choco-tub.php"><i class="bx bx-search"></i></a></li>
           <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
@@ -258,12 +260,11 @@
       </div>
       <div class="col d-flex">
         <h4>CATEGORIES</h4>
-        <a href="preloved.php" Preloved></a>
-        <a href="preorder.php">Preorder</a>
+        <a href="preloved.html" Preloved></a>
+        <a href="preorder.html">Preorder</a>
         <a href="food.html">Food</a>
-        <a href="services.php">Services</a>
+        <a href="services.html">Services</a>
         <a href="books.php">Books</a>
-        <a href="wtb.html">WTB!</a>
       </div>
       <div class="col d-flex">
         <h4>OFFICIAL UTP <br/>SOCIAL MEDIA</h4>
