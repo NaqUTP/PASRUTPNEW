@@ -1,7 +1,3 @@
- 
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,10 +63,6 @@
             <i class="bx bx-heart"></i>
             <span class="d-flex">0</span>
           </div>
-          <a href="cart.html" class="icon">
-            <i class="bx bx-cart"></i>
-            <span class="d-flex">0</span>
-          </a>
         </li>
       </ul>
 
@@ -79,17 +71,13 @@
           <i class="bx bx-user"></i>
         </a>
         <div class="icon">
-          <i class="bx bx-search"></i>
-        </div>
-        <div class="icon">
           <i class="bx bx-heart"></i>
           <span class="d-flex">0</span>
         </div>
-        <a href="cart.html" class="icon">
-          <i class="bx bx-cart"></i>
-          <span class="d-flex">0</span>
-        </a>
       </div>
+
+     <div class="container">
+        <input id="searchbar" onkeyup="search_animal(event)" type="text" name="search" placeholder="Search Products..">
 
       <div class="hamburger">
         <i class="bx bx-menu-alt-left"></i>
@@ -176,7 +164,6 @@
                 echo "<ul class='icons'>";
                 echo "<li><i class='bx bx-heart'></i></li>";
                 echo "<li><a href='product_" . $row['id'] . ".php'><i class='bx bx-search'></i></a></li>"; // Link directly to the generated PHP file
-                echo "<li><i class='bx bx-cart'></i></li>";
                 echo "</ul>";
                 echo "</div>";
             }
@@ -202,11 +189,6 @@
         <a href="baseballcarharttcap.html">Baseball Cap Carhartt</a>
         <h4>RM25.00</h4>
       </div>
-      <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
-        <li><a href="baseballcarharttcap.html"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
-      </ul>
     </div>
     <div class="product-item">
       <div class="overlay">
@@ -221,11 +203,6 @@
         <a href="durable-body-mountain-bike.html">Durable Body Mountain Bike</a>
         <h4>RM520.00</h4>
       </div>
-      <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
-        <li><a href="durable-body-mountain-bike.html"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
-      </ul>
     </div>
     <div class="product-item">
       <div class="overlay">
@@ -239,11 +216,6 @@
         <a href="mistral-fan.php">Mistral Fan</a>
         <h4>RM130.00</h4>
       </div>
-      <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
-        <li><a href="mistral-fan.php"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
-      </ul>
     </div>
     <div class="product-item">
       <div class="overlay">
@@ -257,11 +229,6 @@
         <a href="nike-air-force.php">Nike Air Force</a>
         <h4>RM80.00</h4>
       </div>
-      <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
-        <li><a href="nike-air-force.php"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
-      </ul>
     </div>
     <div class="product-item">
       <div class="overlay">
@@ -273,12 +240,7 @@
         <span>PRELOVED</span>
         <a href="nike-court-royal.php">Nike Court Royal</a>
         <h4>RM80.00</h4>
-      </div>
-      <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
-        <li><a href="nike-court-royal.php"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
-      </ul>
+      </div>      
     </div>
     <div class="product-item">
       <div class="overlay">
@@ -292,11 +254,6 @@
         <a href="sony-srs-xb-13.php">Sony SRS XB-13</a>
         <h4>RM130.00</h4>
       </div>
-      <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
-        <li><a href="sony-srs-xb-13.php"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
-      </ul>
     </div>
     <div class="product-item">
       <div class="overlay">
@@ -309,11 +266,6 @@
         <a href="kek-tapak-kuda.php">Kek Tapak Kuda</a>
         <h4>RM26.00</h4>
       </div>
-      <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
-        <li><a href="kek-tapak-kuda.php"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
-      </ul>
     </div>
     <div class="product-item">
       <div class="overlay">
@@ -326,11 +278,6 @@
         <a href="hotwheels-proton-saga.html">HotWheels Proton Saga</a>
         <h4>RM80.00</h4>
       </div>
-      <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
-        <li><a href="hotwheels-proton-saga.html"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
-      </ul>
     </div>
   </div>
 </section>
@@ -373,11 +320,6 @@
         <a href="logitech-brio-100-webcam.php">LogiTech Brio 100 Webcam</a>
         <h4>RM150.00</h4>
       </div>
-      <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
-        <li><a href="logitech-brio-100-webcam.php"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
-      </ul>
     </div>
     <div class="product-item">
       <div class="overlay">
@@ -391,11 +333,6 @@
         <a href="ipad-7th-gen.php">Ipad 7th Gen</a>
         <h4>N/A</h4>
       </div>
-      <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
-        <li><a href="ipad-7th-gen.php"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
-      </ul>
     </div>
     <div class="product-item">
       <div class="overlay">
@@ -408,11 +345,6 @@
         <a href="powerbank.php">Powerbank</a>
         <h4>RM150.00</h4>
       </div>
-      <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
-        <li><a href="powerbank.php"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
-      </ul>
     </div>
     <div class="product-item">
       <div class="overlay">
@@ -425,11 +357,6 @@
         <a href="jbl-flip-5.php">JBL Flip 5</a>
         <h4>RM350.00</h4>
       </div>
-      <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
-        <li><a href="jbl-flip-5.php"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
-      </ul>
     </div>
 
 </section>
@@ -514,5 +441,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
 <script src="slider.js"></script>
 <script src="index.js"></script>
+<script src="searchscript.js"></script>
 </body>
 </html>
