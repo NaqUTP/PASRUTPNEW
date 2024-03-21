@@ -53,9 +53,6 @@ session_start();
             <i class="bx bx-user"></i>
           </a>
           <div class="icon">
-            <i class="bx bx-search"></i>
-          </div>
-          <div class="icon">
             <i class="bx bx-heart"></i>
             <span class="d-flex">0</span>
           </div>
@@ -67,9 +64,6 @@ session_start();
         <a href="login.html" class="icon">
           <i class="bx bx-user"></i>
         </a>
-        <div class="icon">
-          <i class="bx bx-search"></i>
-        </div>
         <div class="icon">
           <i class="bx bx-heart"></i>
           <span class="d-flex">0</span>
