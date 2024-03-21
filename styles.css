@@ -1473,3 +1473,14 @@ th:last-child {
   font-size: 16px; /* Set the font size for the bio text */
 }
 
+#searchbar {
+  margin-right: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200%;
+  box-sizing: border-box;
+}
+
+.hero .center span{
+  font-size: 40px;
+}
