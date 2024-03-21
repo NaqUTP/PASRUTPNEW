@@ -46,9 +46,6 @@
         <li class="nav-item">
           <a href="books.php" class="nav-link">BOOKS</a>
         </li>
-        <li class="nav-item">
-          <a href="wtb.html" class="nav-link">WTB!</a>
-        </li>
           <li class="nav-item">
               <a href="SELL.php" class="nav-link">SELL</a>
           </li>
@@ -398,7 +395,6 @@
       <a href="food.php">Food</a>
       <a href="services.php">Services</a>
       <a href="books.php">Books</a>
-      <a href="wtb.html">WTB!</a>
     </div>
     <div class="col d-flex">
       <h4>OFFICIAL UTP <br/>SOCIAL MEDIA</h4>
