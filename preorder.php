@@ -22,6 +22,7 @@
   <title>Pasar UTP</title>
 </head>
 <body>
+<script src="searchscript.js"></script>
 <!-- Top Nav -->
 <div class="navigation">
   <div class="nav-center container d-flex">
@@ -46,23 +47,14 @@
       <li class="nav-item">
         <a href="books.php" class="nav-link">BOOKS</a>
       </li>
-      <li class="nav-item">
-        <a href="wtb.html" class="nav-link">WTB!</a>
-      </li>
       <li class="icons d-flex">
         <a href="profile.php" class="icon">
           <i class="bx bx-user"></i>
         </a>
         <div class="icon">
-          <i class="bx bx-search"></i>
-        </div>
-        <div class="icon">
           <i class="bx bx-heart"></i>
           <span class="d-flex">0</span>
         </div>
-        <a href="cart.html" class="icon">
-          <i class="bx bx-cart"></i>
-          <span class="d-flex">0</span>
         </a>
       </li>
     </ul>
@@ -72,17 +64,14 @@
         <i class="bx bx-user"></i>
       </a>
       <div class="icon">
-        <i class="bx bx-search"></i>
-      </div>
-      <div class="icon">
         <i class="bx bx-heart"></i>
         <span class="d-flex">0</span>
       </div>
-      <a href="cart.html" class="icon">
-        <i class="bx bx-cart"></i>
-        <span class="d-flex">0</span>
       </a>
     </div>
+
+     <div class="container">
+        <input id="searchbar" onkeyup="search_animal(event)" type="text" name="search" placeholder="Search Products..">
 
     <div class="hamburger">
       <i class="bx bx-menu-alt-left"></i>
@@ -117,9 +106,7 @@
         <h4>From RM43.00</h4>
       </div>
       <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
         <li><a href="dodgeball-jersey.html"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
       </ul>
     </div>
     <div class="product-item">
@@ -135,9 +122,7 @@
         <h4>From RM6.00</h4>
       </div>
       <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
         <li><a href="flowers.html"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
       </ul>
     </div>
     <div class="product-item">
@@ -152,9 +137,7 @@
         <h4>From RM55.00</h4>
       </div>
       <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
         <li><a href="prestige-edition-by-spectrum.php"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
       </ul>
     </div>
     <div class="product-item">
@@ -169,9 +152,7 @@
         <h4>N/A</h4>
       </div>
       <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
         <li><a href="set-bahan-kisar-dan-tumis-inah-rasa.php"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
       </ul>
     </div>
     <div class="product-item">
@@ -186,9 +167,7 @@
         <h4>From RM40.00</h4>
       </div>
       <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
         <li><a href="stylish-shirts.php"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
       </ul>
     </div>
     <div class="product-item">
@@ -203,9 +182,7 @@
         <h4>From RM5.00</h4>
       </div>
       <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
         <li><a href="the-flower-shop.php"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
       </ul>
     </div>
     <div class="product-item">
@@ -220,9 +197,7 @@
         <h4>From RM50.00</h4>
       </div>
       <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
         <li><a href="the-university.php"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
       </ul>
     </div>
     <div class="product-item">
@@ -237,9 +212,7 @@
         <h4>From RM35.00</h4>
       </div>
       <ul class="icons">
-        <li><i class="bx bx-heart"></i></li>
         <li><a href="utp-kkr-ramblers-limited-edition.php"><i class="bx bx-search"></i></a></li>
-        <li><i class="bx bx-cart"></i></li>
       </ul>
     </div>
   </div>
@@ -263,7 +236,6 @@
       <a href="food.php">Food</a>
       <a href="services.php">Services</a>
       <a href="books.php">Books</a>
-      <a href="wtb.html">WTB!</a>
     </div>
     <div class="col d-flex">
       <h4>OFFICIAL UTP <br/>SOCIAL MEDIA</h4>
