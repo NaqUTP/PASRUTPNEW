@@ -22,6 +22,7 @@
   <title>Pasar UTP</title>
 </head>
 <body>
+  <script src="searchscript.js"></script>
   <!-- Top Nav -->
   <div class="navigation">
     <div class="nav-center container d-flex">
@@ -54,9 +55,6 @@
             <i class="bx bx-user"></i>
           </a>
           <div class="icon">
-            <i class="bx bx-search"></i>
-          </div>
-          <div class="icon">
             <i class="bx bx-heart"></i>
             <span class="d-flex">0</span>
           </div>
@@ -72,9 +70,6 @@
           <i class="bx bx-user"></i>
         </a>
         <div class="icon">
-          <i class="bx bx-search"></i>
-        </div>
-        <div class="icon">
           <i class="bx bx-heart"></i>
           <span class="d-flex">0</span>
         </div>
@@ -83,6 +78,9 @@
           <span class="d-flex">0</span>
         </a>
       </div>
+
+      <div class="container">
+        <input id="searchbar" onkeyup="search_animal(event)" type="text" name="search" placeholder="Search Products..">
 
       <div class="hamburger">
         <i class="bx bx-menu-alt-left"></i>
@@ -117,9 +115,7 @@
           <h4>RM25.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="baseballcarharttcap.html"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -136,9 +132,7 @@
           <h4>RM520.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="durable-body-mountain-bike.html"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -154,9 +148,7 @@
           <h4>RM130.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="mistral-fan.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -172,9 +164,7 @@
           <h4>RM80.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="nike-air-force.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -189,9 +179,7 @@
           <h4>RM80.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="nike-court-royal.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -207,9 +195,7 @@
           <h4>RM130.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="sony-srs-xb-13.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -225,9 +211,7 @@
           <h4>RM650.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="Apple-Watch-Series-5.html"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -242,9 +226,7 @@
           <h4>RM80.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="hotwheels-proton-saga.html"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -260,9 +242,7 @@
           <h4>RM250.00-RM300.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="Coolermaster-MA612-Stealth-ARGB-cpu-cooler.html"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -278,9 +258,7 @@
           <h4>RM10.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="gaming-mouse.html"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -296,9 +274,7 @@
           <h4>N/A</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="ipad-7th-gen.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -314,9 +290,7 @@
           <h4>RM2,800.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="ipad-air-4th-generation.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -331,9 +305,7 @@
           <h4>RM2,000.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="ipad-air-4.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -348,9 +320,7 @@
           <h4>RM2,500.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="Ipad-Air-4th-Generation-Space-Grey.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -365,9 +335,7 @@
           <h4>RM15.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="ipad-tablet-case.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -382,9 +350,7 @@
           <h4>RM150.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="logitech-brio-100-webcam.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -399,9 +365,7 @@
           <h4>RM350.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="jbl-flip-5.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -418,9 +382,7 @@
           <h4>RM79.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="Marks-&-Spencer-Leather-Shoe.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -435,9 +397,7 @@
           <h4>RM150.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="powerbank.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -453,9 +413,7 @@
           <h4>RM290.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="mizuno-monarcida-neo-2-select.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -470,9 +428,7 @@
           <h4>RM70.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="preloved-baju-kurung.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -488,9 +444,7 @@
           <h4>RM150.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="puma-future-match-indoor.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -505,9 +459,7 @@
           <h4>RM300.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="casio-bm5600.html"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -522,9 +474,7 @@
           <h4>RM3,100.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="ipad-air-5th-generation.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -540,9 +490,7 @@
           <h4>RM45.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="lokelteez-JP35-Japanese-PREMIUM-KAEN-FLAME.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -558,9 +506,7 @@
           <h4>RM30.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="polo-ralph-lauren.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -575,9 +521,7 @@
           <h4>RM30.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="romand-glasting-melting-lip.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -592,9 +536,7 @@
           <h4>RM10.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="vintage-blouse.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -609,9 +551,7 @@
           <h4>RM16.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="wardah-velvet-matte-(C03).php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -626,9 +566,7 @@
           <h4>RM130.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="casio-fx570ms.html"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -644,9 +582,7 @@
           <h4>RM18.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="flannel.html"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -661,9 +597,7 @@
           <h4>RM30.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="hoodie-grey.html"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -678,9 +612,7 @@
           <h4>RM35.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="hoodie-red.html"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -696,9 +628,7 @@
           <h4>RM35.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="hoodie-tommy.html"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -714,9 +644,7 @@
           <h4>RM220.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="samsung-buds-2.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -732,9 +660,7 @@
           <h4>RM550.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="mlbb-account.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -750,9 +676,7 @@
           <h4>RM150.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="badminton-racquet.html"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -768,9 +692,7 @@
           <h4>RM80.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="elle-active-jacket.html"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -785,9 +707,7 @@
           <h4>RM35.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="Fantech-RGB-Headphone-Stand.html"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
       <div class="product-item">
@@ -803,9 +723,7 @@
           <h4>RM59.00</h4>
         </div>
         <ul class="icons">
-          <li><i class="bx bx-heart"></i></li>
           <li><a href="viestar-jorts.php"><i class="bx bx-search"></i></a></li>
-          <li><i class="bx bx-cart"></i></li>
         </ul>
       </div>
     </div>
