@@ -95,17 +95,17 @@
     <div class="product-center">
       <div class="product-item">
         <div class="overlay">
-          <a href="baseballcarharttcap.html" class="product-thumb">
+          <a href="baseballcarharttcap.php" class="product-thumb">
             <img src="baseball-cap-carhartt-1.jpeg" alt="" />
           </a>
         </div>
         <div class="product-info">
           <span>PRELOVED</span>
-          <a href="baseballcarharttcap.html">Baseball Cap Carhartt</a>
+          <a href="baseballcarharttcap.php">Baseball Cap Carhartt</a>
           <h4>RM25.00</h4>
         </div>
         <ul class="icons">
-          <li><a href="baseballcarharttcap.html"><i class="bx bx-search"></i></a></li>
+          <li><a href="baseballcarharttcap.php"><i class="bx bx-search"></i></a></li>
         </ul>
       </div>
       <div class="product-item">
