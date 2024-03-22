@@ -92,6 +92,15 @@
                 <span class="">Welcome to,</span>
                 <h1 class="">Pasar UTP!</h1>
                 <p>By UTPians, For UTPians. <br/> <br/>#JauhiScammer <br/> <br/>#NoJoyBuyer</p>
+                <h3>ADAM MIKHAIL BIN YUSRIZAL	22002918<br/>
+                  AHMAD NAQUIB SYAHMEE BIN MASROR	22002845<br/>
+                  FAIQ NURUDDIN BIN ABDUL AJIM	22004209<br/>
+                  FARID ADLEEN IRFAN BIN FARID ADLI	22004676<br/>
+                  FARISHA BINTI MOHAMAD ZULKEFLI	22001276<br/>
+                  MEGAT ABDUL RAHMAN BIN MEGAT HISHAM	22005681<br/>
+                  MOHAMMAD AFIQ FAHMI BIN MOHD SANI	22003060 <br/>
+                  WAN QISTINA BINTI WAN ABDULLAH	22003159<br/>
+                </h3>
                 <a href="index.html" class="hero-btn">SHOP NOW</a>
               </div>
               <div class="right">
