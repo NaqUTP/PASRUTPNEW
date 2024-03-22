@@ -47,9 +47,6 @@
                     <a href="books.php" class="nav-link">BOOKS</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#wtb" class="nav-link">WTB!</a>
-                </li>
-                <li class="nav-item">
                     <a href="SELL.php" class="nav-link">SELL</a>
                 </li>
                 <li class="icons d-flex">
@@ -57,16 +54,9 @@
                         <i class="bx bx-user"></i>
                     </a>
                     <div class="icon">
-                        <i class="bx bx-search"></i>
-                    </div>
-                    <div class="icon">
                         <i class="bx bx-heart"></i>
                         <span class="d-flex">0</span>
                     </div>
-                    <a href="cart.html" class="icon">
-                        <i class="bx bx-cart"></i>
-                        <span class="d-flex">0</span>
-                    </a>
                 </li>
             </ul>
 
@@ -75,17 +65,13 @@
                     <i class="bx bx-user"></i>
                 </a>
                 <div class="icon">
-                    <i class="bx bx-search"></i>
-                </div>
-                <div class="icon">
                     <i class="bx bx-heart"></i>
                     <span class="d-flex">0</span>
                 </div>
-                <a href="cart.html" class="icon">
-                    <i class="bx bx-cart"></i>
-                    <span class="d-flex">0</span>
-                </a>
             </div>
+
+            <div class="container">
+                <input id="searchbar" onkeyup="search_animal(event)" type="text" name="search" placeholder="Search Products..">
 
             <div class="hamburger">
                 <i class="bx bx-menu-alt-left"></i>
@@ -102,7 +88,7 @@
                             <div class="left">
                                 <span class="">Welcome to,</span>
                                 <h1 class="">Pasar UTP!</h1>
-                                <p>By UTPians, For UTPians. <br/> <br/>#JauhiScammer <br/> <br/>#NoJoyBuyer</p>
+                                <p>By UTPians, For UTPians. <br/>#JauhiScammer  <br/>#NoJoyBuyer</p>
                                 <a href="index.php" class="hero-btn">SHOP NOW</a>
                             </div>
                             <div class="right">
@@ -121,7 +107,25 @@
                             <div class="right">
                                 <img class="img2" src="image-2.jpeg" alt="">
                             </div>
+
                         </div>
+                        <div class="right">
+                            <img class="img2" src="image-2.jpeg" alt="">
+                            <li class="glide__slide">
+                                <div class="center">
+                                    <div class="left">
+                                        <h3>ADAM MIKHAIL BIN YUSRIZAL || 22002918<br/>
+                                            AHMAD NAQUIB SYAHMEE BIN MASROR || 22002845<br/>
+                                            FAIQ NURUDDIN BIN ABDUL AJIM || 22004209<br/>
+                                            FARID ADLEEN IRFAN BIN FARID ADLI || 22004676<br/>
+                                            FARISHA BINTI MOHAMAD ZULKEFLI || 22001276<br/>
+                                            MEGAT ABDUL RAHMAN BIN MEGAT HISHAM || 22005681<br/>
+                                            MOHAMMAD AFIQ FAHMI BIN MOHD SANI || 22003060 <br/>
+                                            WAN QISTINA BINTI WAN ABDULLAH || 22003159<br/>
+                                        </h3>
+                                    </div>
+                                    <div class="right">
+                                        <img class="img2" src="group.png" alt="">
                     </li>
                 </ul>
             </div>
@@ -189,24 +193,22 @@
     <div class="product-center">
         <div class="product-item">
             <div class="overlay">
-                <a href="baseballcarharttcap.html" class="product-thumb">
+                <a href="baseballcarharttcap.php" class="product-thumb">
                     <img src="baseball-cap-carhartt-1.jpeg" alt="" />
                 </a>
             </div>
             <div class="product-info">
                 <span>PRELOVED</span>
-                <a href="baseballcarharttcap.html">Baseball Cap Carhartt</a>
+                <a href="baseballcarharttcap.php">Baseball Cap Carhartt</a>
                 <h4>RM25.00</h4>
             </div>
             <ul class="icons">
-                <li><i class="bx bx-heart"></i></li>
-                <li><a href="baseballcarharttcap.html"><i class="bx bx-search"></i></a></li>
-                <li><i class="bx bx-cart"></i></li>
+                <li><a href="baseballcarharttcap.php"><i class="bx bx-search"></i></a></li>
             </ul>
         </div>
         <div class="product-item">
             <div class="overlay">
-                <a href="durable-body-mountain-bike.html" class="product-thumb">
+                <a href="durable-body-mountain-bike.php" class="product-thumb">
                     <img src="durable-body-mountain-bike.jpeg" alt="" />
                 </a>
                 <span class="discount">Negotiable</span>
@@ -214,13 +216,11 @@
 
             <div class="product-info">
                 <span>PRELOVED</span>
-                <a href="durable-body-mountain-bike.html">Durable Body Mountain Bike</a>
+                <a href="durable-body-mountain-bike.php">Durable Body Mountain Bike</a>
                 <h4>RM520.00</h4>
             </div>
             <ul class="icons">
-                <li><i class="bx bx-heart"></i></li>
-                <li><a href="durable-body-mountain-bike.html"><i class="bx bx-search"></i></a></li>
-                <li><i class="bx bx-cart"></i></li>
+                <li><a href="durable-body-mountain-bike.php"><i class="bx bx-search"></i></a></li>
             </ul>
         </div>
         <div class="product-item">
@@ -236,9 +236,7 @@
                 <h4>RM130.00</h4>
             </div>
             <ul class="icons">
-                <li><i class="bx bx-heart"></i></li>
                 <li><a href="mistral-fan.php"><i class="bx bx-search"></i></a></li>
-                <li><i class="bx bx-cart"></i></li>
             </ul>
         </div>
         <div class="product-item">
@@ -254,9 +252,7 @@
                 <h4>RM80.00</h4>
             </div>
             <ul class="icons">
-                <li><i class="bx bx-heart"></i></li>
                 <li><a href="nike-air-force.php"><i class="bx bx-search"></i></a></li>
-                <li><i class="bx bx-cart"></i></li>
             </ul>
         </div>
         <div class="product-item">
@@ -271,9 +267,7 @@
                 <h4>RM80.00</h4>
             </div>
             <ul class="icons">
-                <li><i class="bx bx-heart"></i></li>
                 <li><a href="nike-court-royal.php"><i class="bx bx-search"></i></a></li>
-                <li><i class="bx bx-cart"></i></li>
             </ul>
         </div>
         <div class="product-item">
@@ -289,9 +283,7 @@
                 <h4>RM130.00</h4>
             </div>
             <ul class="icons">
-                <li><i class="bx bx-heart"></i></li>
                 <li><a href="sony-srs-xb-13.php"><i class="bx bx-search"></i></a></li>
-                <li><i class="bx bx-cart"></i></li>
             </ul>
         </div>
         <div class="product-item">
@@ -306,26 +298,22 @@
                 <h4>RM26.00</h4>
             </div>
             <ul class="icons">
-                <li><i class="bx bx-heart"></i></li>
                 <li><a href="kek-tapak-kuda.php"><i class="bx bx-search"></i></a></li>
-                <li><i class="bx bx-cart"></i></li>
             </ul>
         </div>
         <div class="product-item">
             <div class="overlay">
-                <a href="hotwheels-proton-saga.html" class="product-thumb">
+                <a href="hotwheels-proton-saga.php" class="product-thumb">
                     <img src="hotwheels-proton-saga.jpeg" alt="" />
                 </a>
             </div>
             <div class="product-info">
                 <span>PRELOVED</span>
-                <a href="hotwheels-proton-saga.html">HotWheels Proton Saga</a>
+                <a href="hotwheels-proton-saga.php">HotWheels Proton Saga</a>
                 <h4>RM80.00</h4>
             </div>
             <ul class="icons">
-                <li><i class="bx bx-heart"></i></li>
-                <li><a href="hotwheels-proton-saga.html"><i class="bx bx-search"></i></a></li>
-                <li><i class="bx bx-cart"></i></li>
+                <li><a href="hotwheels-proton-saga.php"><i class="bx bx-search"></i></a></li>
             </ul>
         </div>
     </div>
@@ -370,9 +358,7 @@
                 <h4>RM150.00</h4>
             </div>
             <ul class="icons">
-                <li><i class="bx bx-heart"></i></li>
                 <li><a href="logitech-brio-100-webcam.php"><i class="bx bx-search"></i></a></li>
-                <li><i class="bx bx-cart"></i></li>
             </ul>
         </div>
         <div class="product-item">
@@ -388,9 +374,7 @@
                 <h4>N/A</h4>
             </div>
             <ul class="icons">
-                <li><i class="bx bx-heart"></i></li>
                 <li><a href="ipad-7th-gen.php"><i class="bx bx-search"></i></a></li>
-                <li><i class="bx bx-cart"></i></li>
             </ul>
         </div>
         <div class="product-item">
@@ -405,9 +389,7 @@
                 <h4>RM150.00</h4>
             </div>
             <ul class="icons">
-                <li><i class="bx bx-heart"></i></li>
                 <li><a href="powerbank.php"><i class="bx bx-search"></i></a></li>
-                <li><i class="bx bx-cart"></i></li>
             </ul>
         </div>
         <div class="product-item">
@@ -422,9 +404,7 @@
                 <h4>RM350.00</h4>
             </div>
             <ul class="icons">
-                <li><i class="bx bx-heart"></i></li>
                 <li><a href="jbl-flip-5.php"><i class="bx bx-search"></i></a></li>
-                <li><i class="bx bx-cart"></i></li>
             </ul>
         </div>
 </section>
@@ -466,7 +446,6 @@
             <a href="food.php">Food</a>
             <a href="services.php">Services</a>
             <a href="books.php">Books</a>
-            <a href="wtb.html">WTB!</a>
         </div>
         <div class="col d-flex">
             <h4>OFFICIAL UTP <br/>SOCIAL MEDIA</h4>
@@ -508,5 +487,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
 <script src="slider.js"></script>
 <script src="index.js"></script>
+<script src="searchscript.js"></script>
 </html>
 
