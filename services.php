@@ -1,4 +1,5 @@
-<?php include('session_check.php'); ?>
+<?php include('jwt_check.php'); ?>
+
 
 <!DOCTYPE html>
 <html lang="en">

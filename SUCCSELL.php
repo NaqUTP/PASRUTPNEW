@@ -1,5 +1,7 @@
-
-
+<?php
+// PASRUTPNEW-main/SUCCSELL.php
+include('jwt_check.php');  // ← optional, but recommended to ensure user is logged in
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -97,7 +99,8 @@
 
 
 <p>Your listing is successfully created! <a href="VIEWSELL.php">Click here</a> to continue.</p>
-
+<p><a href="SELL.php">Back to Products</a></p>
+<p><a href="logout.php">Log Out</a></p>
 
 <!-- Footer -->
 <footer class="footer">

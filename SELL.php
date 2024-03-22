@@ -1,4 +1,5 @@
-<?php include('session_check.php'); ?>
+<?php include('jwt_check.php'); ?>
+
 
 <?php
 
@@ -31,7 +32,7 @@ if ($result->num_rows > 0) {
         $phpFileContent = "
 
 <?php
-session_start();
+jwt_check.php;
 ?>
 
 <!DOCTYPE html>

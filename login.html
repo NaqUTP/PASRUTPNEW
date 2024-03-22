@@ -1,3 +1,4 @@
+<!-- PASRUTPNEW-main/login.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +9,7 @@
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
   />
-  <!-- Custom StyleSheet -->
+  <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="styles.css" />
   <title>Login</title>
 </head>
@@ -17,80 +18,33 @@
 <div class="navigation">
   <div class="nav-center container d-flex">
     <a href="index.php" class="logo"><h1>Pasar UTP</h1></a>
-
     <ul class="nav-list d-flex">
+      <li class="nav-item"><a href="index.php" class="nav-link">HOME</a></li>
+      <li class="nav-item"><a href="preloved.php" class="nav-link">PRELOVED</a></li>
       <li class="nav-item">
-        <a href="index.php" class="nav-link">HOME</a>
-      </li>
-      <li class="nav-item">
-        <a href="preloved.php" class="nav-link">PRELOVED</a>
-      </li>
-      <li class="nav-item">
-        <a href="preorder.php" class="nav-link">PREORDER</a>
-      </li>
-      <li class="nav-item">
-        <a href="food.php" class="nav-link">FOOD</a>
-      </li>
-      <li class="nav-item">
-        <a href="services.php" class="nav-link">SERVICES</a>
-      </li>
-      <li class="nav-item">
-        <a href="books.php" class="nav-link">BOOKS</a>
-      </li>
-      <li class="icons d-flex">
-        <a href="login.html" class="icon">
-          <i class="bx bx-user"></i>
-        </a>
-        <div class="icon">
-          <i class="bx bx-search"></i>
-        </div>
-        <div class="icon">
-          <i class="bx bx-heart"></i>
-          <span class="d-flex">0</span>
-        </div>
-        <a href="cart.html" class="icon">
-          <i class="bx bx-cart"></i>
-          <span class="d-flex">0</span>
-        </a>
+        <a href="login.html" class="nav-link active">LOGIN</a>
       </li>
     </ul>
-
-    <div class="icons d-flex">
-      <a href="login.html" class="icon">
-        <i class="bx bx-user"></i>
-      </a>
-      <div class="icon">
-        <i class="bx bx-search"></i>
-      </div>
-      <div class="icon">
-        <i class="bx bx-heart"></i>
-        <span class="d-flex">0</span>
-      </div>
-      <a href="cart.html" class="icon">
-        <i class="bx bx-cart"></i>
-        <span class="d-flex">0</span>
-      </a>
-    </div>
-
-    <div class="hamburger">
-      <i class="bx bx-menu-alt-left"></i>
+    <div class="menu-toggle" id="mobile-menu">
+      <i class="bx bx-menu"></i>
     </div>
   </div>
 </div>
-<!-- Login -->
-<div class="container">
-  <div class="login-form">
-    <form action="login.php" method="POST">
-      <h1>Login</h1>
-      <p>
-        Already have an account? Login in or
-        <a href="signup.html">Sign Up</a>
-      </p>
 
-      <label for="email">Email</label>
-      <input type="email" placeholder="Enter Email" name="email" required />
+<!-- Login Form -->
+<section class="login-section">
+  <div class="container">
+    <h2>Log In to Pasar UTP</h2>
+    <form action="login_jwt.php" method="POST">
+      <label for="email"><b>Email</b></label>
+      <input
+              type="email"
+              placeholder="Enter Email"
+              name="email"
+              required
+      />
 
-      <label for="psw">Password</label>
+      <label for="psw"><b>Password</b></label>
       <input
               type="password"
               placeholder="Enter Password"
@@ -98,58 +52,21 @@
               required
       />
 
+      <button type="submit" class="btn">Log In</button>
       <label>
-        <input
-                type="checkbox"
-                checked="checked"
-                name="remember"
-                style="margin-bottom: 15px"
-        />
-        Remember me
+        <input type="checkbox" name="remember" /> Remember me
       </label>
-
-      <p>
-        By creating an account you agree to our
-        <a href="#">Terms & Privacy</a>.
-      </p>
-
-      <div class="buttons">
-        <button type="button" class="cancelbtn">Cancel</button>
-        <button type="submit" class="signupbtn">Login</button>
-      </div>
     </form>
-  </div>
-</div>
-
-<!-- Footer -->
-<footer class="footer">
-  <div class="row">
-    <div class="col d-flex">
-      <h4>INFORMATION</h4>
-      <a href="">About us</a>
-      <a href="">Contact Us</a>
-      <a href="tnc.html">Terms & Conditions</a>
-      <a href="shippingguide.html">Shipping Guide</a>
-    </div>
-    <div class="col d-flex">
-      <h4>CATEGORIES</h4>
-      <a href="preloved.php" Preloved</a>
-      <a href="preorder.php">Preorder</a>
-      <a href="food.php">Food</a>
-      <a href="services.php">Services</a>
-      <a href="books.php">Books</a>
-    </div>
-    <div class="col d-flex">
-      <h4>OFFICIAL UTP <br/>SOCIAL MEDIA</h4>
-      <a href="https://www.facebook.com/UTPOfficial/?locale=ms_MY"><span><i class='bx bxl-facebook' ></i></span></a>
-      <a href="https://www.instagram.com/utpofficial/?hl=en"><span><i class='bx bxl-instagram' ></i></span></a>
-      <a href="https://www.linkedin.com/school/universiti-teknologi-petronas/"><span><i class='bx bxl-linkedin' ></i></span></a>
-      <a href="https://twitter.com/UTPOfficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><span><i class='bx bxl-twitter' ></i></span></a>
+    <div class="bottom-text">
+      <p>
+        Don’t have an account?
+        <a href="register.html">Sign up here</a>
+      </p>
     </div>
   </div>
-</footer>
+</section>
 
-<!-- Custom Script -->
-<script src="index.js"></script>
+<!-- (Optional) Include your site’s JS here -->
+<script src="app.js"></script>
 </body>
 </html>

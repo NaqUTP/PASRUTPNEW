@@ -1,7 +1,7 @@
 
 
 <?php
-session_start();
+include('jwt_check.php');
 ?>
 
 <!DOCTYPE html>
